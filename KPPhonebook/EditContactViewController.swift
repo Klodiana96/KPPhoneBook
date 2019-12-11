@@ -70,7 +70,7 @@ class EditContactViewController: UIViewController {
                 phoneNumber: phone,
                 type: type
             )
-            ContactManager.shared.create(contact)
+            ContactManager.shared.create(contact) 
         }
 
         dismiss(animated: true, completion: nil)

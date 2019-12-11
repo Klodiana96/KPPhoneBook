@@ -29,7 +29,7 @@ public class ContactManager: NSObject {
 
     // MARK: - Private objects
 
-    private let storageManager = StorageManager()
+    private let storageManager = StorageManager()  
     private var sortType: SortType = .ascending
     private var sortCriteria: SortCriteria = .firstName
 

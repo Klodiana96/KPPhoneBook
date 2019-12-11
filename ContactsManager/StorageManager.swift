@@ -11,8 +11,8 @@ import Foundation
 // The purpose of this class is to manage the file & directory memory, by creating URLs, encoding, decoding and writing the data
 
 internal class StorageManager: NSObject {
-    private let encoder: JSONEncoder = .init()
-    private let decoder: JSONDecoder = .init()
+    private let encoder: JSONEncoder = .init()// e perkthen nga model n data
+    private let decoder: JSONDecoder = .init()// e perkthen nga data n model
     private var savePathDirectory: URL?
 
     override init() {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-// By conforming to Codable protocol, we ensure that this object type is available to be saved in multiple formats: NSUserDefaults, as Data, in a Binary File, etc.
+// By conforming to Codable protocol, we ensure that this object type is available to be saved in multiple formats: NSUserDefaults, as Data, etc.
 
 // We make this enum as string so we can use it easily with codable
 public enum Type: String, Codable {
